@@ -31,7 +31,7 @@
 <h2><b>🆕 What's New!</b></h2>
 <p><b>1.Gclone upgraded to v1.59.0 (latest)!😉</b></p>
 <p><b>2.Base Image changed to Ubuntu 22.04</b></p>
-<p><b><a href="www.github.com/TheCaduceus/CloneBot_V2/releases">Show Full Update history</a></b></p>
+<p><b><a href="www.github.com/AJ786-GITHUB/CloneBot_V2/releases">Show Full Update history</a></b></p>
 <!---NOTICE--->
 <h2><b>⛔ NOTICE</b></h2>
 <p><b>1.You may need account for Heroku/Okteto/Scalingo while deploying CloneBot V2 on respected platforms.</b></p>
@@ -41,9 +41,9 @@
 <p><b>5.This Project comes with GNU License, please consider reading it before using this.</b></p>
 <!---Deployment--->
 <h2><b>⚙️ How to use?</b></h2>
-<p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
-<h4><b>1.First convert accounts folder of your Service Accounts into <code>accounts.zip</code> then send it to bot and write <code>/sa</code> in caption or send <code>/sa</code> as reply to <code>accounts.zip</code> file. Don't have Service Accounts? <a href="https://github.com/TheCaduceus/CloneBot_V2#-making-service-accounts">Learn here</a> how to create</b></h4>
-<h4><b>2.Now Send <code>/folders</code> to your CloneBot V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
+<p><b>CloneBot V2 is very straight forward and easy to use bot. If you deployed your CloneBot V2 then consider adding commands in it through <a href="https://t.me/BotFather">@BotFather</a> to make it easy for other users to know bot commands, here is the <a href="https://github.com/AJ786-GITHUB/CloneBot_V2/blob/main/Commands.md" alt="Command-list">commands list</a> to be set in <a href="https://t.me/BotFather">@BotFather</a>:</b></p>
+<h4><b>1.First convert accounts folder of your Service Accounts into <code>accounts.zip</code> then send it to bot and write <code>/sa</code> in caption or send <code>/sa</code> as reply to <code>accounts.zip</code> file. Don't have Service Accounts? <a href="https://github.com/AJ786-GITHUB/CloneBot_V2#-making-service-accounts">Learn here</a> how to create</b></h4>
+<h4><b>2.Now Send <code>/folders</code> to your CloneBot V2 and then bot will show Shared Drives name in which you added your Service Accounts's Google Group, select Shared Drive or directory available in it as destination. Not added Service Accounts in Google Group? <a href="https://github.com/AJ786-GITHUB/CloneBot_V2#%EF%B8%8F-create-service-accounts">Learn here</a> how to do.</b></h4>
 <h4><b>3.Your CloneBot V2 is now ready to be used! just send any Google Drive sharing link and select the Destination folder you set before to clone data in it.</b></h4>
 <h4><b>4.Additionally, <code>/ban</code> and <code>/unban</code> command is to unauthorize or authorize user again and <code>/id</code> command is to get your Telegram User ID.</b></h4>
 <p><b>⛔NOTE: Each allowed user have to upload their own <code>accounts.zip</code> to use CloneBot_V2.</b></p>
@@ -58,7 +58,7 @@
 </b></p>
 <h3><b>📄Getting CONFIG_FILE_URL</b></h3>
 <p><b><code>CONFIG_FILE_URL</code> is URL to <code>config.ini</code> file which contains values of variables discussed above, lets see how to get your <code>CONFIG_FILE_URL</code> easily:</b></p>
-<h4><b>1.First open <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
+<h4><b>1.First open <a href="https://github.com/AJ786-GITHUB/CloneBot_V2/blob/main/sample-config.ini"> sample-config.ini file</a> then copy its code.</b></h4>
 <img src="Img/32.png" alt="32">
 <h4><b>2.Now open <a href="https://gist.github.com" alt="GitHub Gist">GitHub Gist</a> and create a new gist and paste the code you just copied and name it as <code>config.ini</code> and now fill below values carefully:</b></h4>
 <p><b>
@@ -85,17 +85,17 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <p><b>-><code>docker pull ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
 <h4><b>2.Or, to use as base Image:</b></h4>
 <p><b>-><code>FROM ghcr.io/thecaduceus/clonebot_v2:main</code></b></p>
-<h4><b>3.Want to build own docker image? alright! <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/.github/workflows/Docker-Build-Guide.md" alt="Build Docker Guide">here</a> is the guide.</b></h4>
+<h4><b>3.Want to build own docker image? alright! <a href="https://github.com/AJ786-GITHUB/CloneBot_V2/blob/main/.github/workflows/Docker-Build-Guide.md" alt="Build Docker Guide">here</a> is the guide.</b></h4>
 <p><b>⛔NOTE: Docker Image only accepts <code>CONFIG_FILE_URL</code></b></p>
 <!---Heroku--->
 <h3><b>⚡Deploy on Heroku</b></h3>
 <p><b>Heroku is very famous PaaS (Platform as a Service) platform and it provides very simple user environment as well as you can deploy CloneBot V2 very quickly on Heroku to run it continuously for 24 Hours.</b></p>
 <h4><b>1.Press below CloneBot V2 deploy button for Heroku:</b></h4>
-<a href="https://heroku.com/deploy?template=https://github.com/TheCaduceus/CloneBot_V2"><img src="Img/Deploy-Button-Heroku.png" alt="Deploy on Heroku"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/AJ786-GITHUB/CloneBot_V2"><img src="Img/Deploy-Button-Heroku.png" alt="Deploy on Heroku"></a>
 <h4><b>2.Enter Below Values:</b></h4>
 <p><b>
 	<code>App Name</code> - Give a unique name to your Bot.<br><br>
-	<code>CONFIG_FILE_URL</code> - Enter <code>CONFIG_FILE_URL</code> which you made <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">here</a>.
+	<code>CONFIG_FILE_URL</code> - Enter <code>CONFIG_FILE_URL</code> which you made <a href="https://github.com/AJ786-GITHUB/CloneBot_V2#getting-config_file_url">here</a>.
 </b></p>
 <img src="Img/36.png" alt="36">
 <h4><b>3.Click "Deploy" button and once it got deployed, click <code>Manage App</code> then go to <code>Resource Tab</code> and enable the dyno as shown in the image.</b></h4>
@@ -126,7 +126,7 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="Img/39.png" alt="39">
 <h4><b>3.After it, select your forked repository and select branch <code>main</code> and add following value carefully:</b></h4>
 <p><b>
-	<code>CONFIG_FILE_URL</code> - Enter <code>CONFIG_FILE_URL</code>, which you just made <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">here</a>.<br>
+	<code>CONFIG_FILE_URL</code> - Enter <code>CONFIG_FILE_URL</code>, which you just made <a href="https://github.com/AJ786-GITHUB/CloneBot_V2#getting-config_file_url">here</a>.<br>
 </b></p>
 <img src="Img/40.png" alt="40">
 <h4><b>4.Once done! press "Launch" and you successfully done it! Yes 😊</b></h4>
@@ -147,8 +147,8 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <h4><b>2.Download Repository:</b></h4>
 <p><b>
-	-><code>git clone https://github.com/TheCaduceus/CloneBot_V2</code><br>
-	->Or Download from <a href="https://github.com/TheCaduceus/CloneBot_V2/releases">Here</a>
+	-><code>git clone https://github.com/AJ786-GITHUB/CloneBot_V2</code><br>
+	->Or Download from <a href="https://github.com/AJ786-GITHUB/CloneBot_V2/releases">Here</a>
 </b></p>
 <h4><b>3.Install CloneBot_V2 Requirements:</b></h4>
 <p><b>
@@ -166,8 +166,8 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 </b></p>
 <h4><b>5.Edit <code>Config.ini</code> file</b></h4>
 <p><b>
-	->Open <code>config.ini</code> file in any text editor and enter the values of variables as <a href="https://github.com/TheCaduceus/CloneBot_V2#%EF%B8%8Fdeployment">written here</a><br>
-	<br>Or you can download your <code>config.ini</code> file from external source using <a href="https://github.com/TheCaduceus/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
+	->Open <code>config.ini</code> file in any text editor and enter the values of variables as <a href="https://github.com/AJ786-GITHUB/CloneBot_V2#%EF%B8%8Fdeployment">written here</a><br>
+	<br>Or you can download your <code>config.ini</code> file from external source using <a href="https://github.com/AJ786-GITHUB/CloneBot_V2#getting-config_file_url">CONFIG_FILE_URL</a> by using Command-line:<br>
 	-><code>curl CONFIG_FILE_URL >> telegram_gcloner/config.ini</code>
 </b></p>
 <h4><b>6.Start CloneBot V2:</b></h4>
@@ -183,11 +183,11 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <h2><b>📱Deploy on Termux</b></h2>
 <p><b>Termux is a best app for running and using Command-line tools on Mobile, CloneBot can also be deploy on your Mobile using Termux itself, don't worry because CloneBot V2 is very lightweight and designed to be deployed even on low-end systems and thus it will not cause heavy load on your Mobile.</b></p>
 <h4><b>1.Download Termux app: <a href="https://github.com/termux/termux-app/releases" alt="Download-Termux">Download Here</a></b></h4>
-<h4><b>2.Choose specific code <a href="https://github.com/TheCaduceus/CloneBot_V2/blob/main/Termux-Guide.md">from here</a> based on architecture of your phone.</b></h4>
+<h4><b>2.Choose specific code <a href="https://github.com/AJ786-GITHUB/CloneBot_V2/blob/main/Termux-Guide.md">from here</a> based on architecture of your phone.</b></h4>
 <h4><b>3.Run the code you got from above and follow on-screen instructions.</b></h4>
 <h2><b>🎲Deploy on Scalingo</b></h2>
 <p><b>CloneBot V2 is also deployable to Scalingo cloud, Just deploy <code>Scalingo</code> Branch.</b></p>
-<p><b>Switch to <a href="https://github.com/TheCaduceus/CloneBot_V2/tree/Scalingo">Scalingo Branch</a> for guide.</b></p>
+<p><b>Switch to <a href="https://github.com/AJ786-GITHUB/CloneBot_V2/tree/Scalingo">Scalingo Branch</a> for guide.</b></p>
 <!---Creating Service Accounts--->
 <h2><b>🪪 Making Service Accounts</b></h2>
 <p><b>Service Accounts are just like normal Google Account and thus have same Upload or Download limits as Google Account which is 750GB Upload and 10TB Download. They are used to act on behalf of a Google Account and hence we can use them to prevent hitting Google Drive limits by creating them in a bulk amount. After creating Service Accounts, we have to add them in Google Group so that we can directly add Google Group's Email ID in Shared Drive at place of adding each Service Accounts manually.</b></p>
@@ -271,20 +271,20 @@ https://gist.githubusercontent.com/UserName/0ee24eXXXXXXXXXXXXXXX6b/raw/config.i
 <img src="Img/31.png" alt="31">
 <h4><b>26.Finally! We have created 100 Service Accounts and also added them in Google Group. Each Service Account have 750 GB Upload/Clone limit and 10 TB Download limit that means now we can upload/clone 75 TB and can download 100 TB a day.</b></h4>
 <h2><b>⛑Contact Us!</b></h2>
-<h4><b>Join our Update Channel at Telegram:<a href="https://telegram.me/TheCaduceusUPDATE"> Join Now!</a></b></h4>
+<h4><b>Join our Update Channel at Telegram:<a href="https://t.me/aj786_at"> Join Now!</a></b></h4>
 <h4><b>Directly Contact the Developer using Telegram <a href="https://telegram.me/HelpAutomatted_Bot">@HelpAutomatted_Bot</a></b></h4>
 <h2><b>❤️Credits & Thanks</b></h2>
 <h4><b>🔥CloneBot V2:</b></h4>
-<p><b><a href="https://github.com/TheCaduceus">Dr.Caduceus</a>: For making this Project and Guide.</b></p>
-<p><b><a href="https://github.com/l3v11">Levi</a>: For Gclone and upgrading it.</b></p>
+<p><b><a href="https://github.com/AJ786-GITHUB">XCALIBER-AJ</a>: For making this Project and Guide.</b></p>
+<p><b><a href="https://github.com/AJ786-GITHUB">Levi</a>: For Gclone and upgrading it.</b></p>
 <h4><b>⚡CloneBot:</b></h4>
 <p><b>
-	<a href="https://github.com/wrenfairbank/telegram_gcloner">wrenfairbank</a>: For the original python script.<br>
-	<a href="https://github.com/smartass08/telegram_gcloner">smartass08</a>: To adapt the scrip to heroku.<br>
-	<a href="https://github.com/anymeofu/CloneBot">anymeofu</a>: For making the Direct Heroku deployable Version.<br>
+	<a href="https://github.com/AJ786-GITHUB">wrenfairbank</a>: For the original python script.<br>
+	<a href="https://github.com/AJ786-GITHUB">smartass08</a>: To adapt the scrip to heroku.<br>
+	<a href="https://github.com/AJ786-GITHUB">anymeofu</a>: For making the Direct Heroku deployable Version.<br>
 	<a href="#">Zero-The-Kamisama</a>: To making MsGsuite discover this amazing bot and the detailed instructions.<br>
-	<a href="https://t.me/zorgof">zorgof</a>: For the termux script.<br>
-	<a href="https://github.com/aishik2005">Aishik Tokdar</a>: For Adding Guide to Deploy on Railway.app , Qovery , Clever Cloud , Scalingo and some other Code Improvements.Also Added Heroku Workflow Deployment Method.<br>
-	<a href="https://github.com/tiararosebiezetta">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scanlingo.<br>
-	<a href="https://github.com/missemily2022">Miss Emily</a>: For adding Support of Okteto Cloud Deployment as well as improving little layout.
+	<a href="https://t.me/AJ786-GITHUB">zorgof</a>: For the termux script.<br>
+	<a href="https://github.com/AJ786-GITHUB">Aishik Tokdar</a>: For Adding Guide to Deploy on Railway.app , Qovery , Clever Cloud , Scalingo and some other Code Improvements.Also Added Heroku Workflow Deployment Method.<br>
+	<a href="https://github.com/AJ786-GITHUB">Katarina</a>: For adding the ability to be deployed to Clever Cloud and Scanlingo.<br>
+	<a href="https://github.com/AJ786-GITHUB">Miss Emily</a>: For adding Support of Okteto Cloud Deployment as well as improving little layout.
 </b></p> 
